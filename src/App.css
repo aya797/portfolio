@@ -575,6 +575,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width:25px;
     height: 25px;
   }
+  .icon a::before {
+    width: 25px;
+    height: 25px;
+  }
   .navbar-connect button {
     padding: 10px 10px;
   }
@@ -595,6 +599,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
     .email{
       padding: 20px 60px;
+    }
+    .main-text {
+      margin-top: 25px;
+    }
+    .icon a::before {
+      width: 25px;
+      height: 25px;
     }
 }
 @media (max-width:375px) {
